@@ -304,6 +304,7 @@ By default, results will be stored in the ./results directory. A new sub directo
 ├── exploit/
 ├── loot/
 ├── report/
+├── www/
 │   ├── local.txt
 │   ├── notes.txt
 │   ├── proof.txt

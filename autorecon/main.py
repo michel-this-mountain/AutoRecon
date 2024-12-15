@@ -496,6 +496,9 @@ async def scan_target(target):
 		reportdir = os.path.join(basedir, 'report')
 		os.makedirs(reportdir, exist_ok=True)
 
+		wwwdir = os.path.join(basedir, 'www')
+		os.makedirs(wwwdir, exist_ok=True)
+
 		open(os.path.join(reportdir, 'local.txt'), 'a').close()
 		open(os.path.join(reportdir, 'proof.txt'), 'a').close()
 
